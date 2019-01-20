@@ -13,7 +13,7 @@ void SerialPrintf(const char *fmt, ... ) { // resulting string limited to 128 ch
 
 // 3 килогерца, 250 миллисекунд
 void highBeep() {
-  tone(BEEPER_PIN, 3000, 250); 
+  tone(BEEPER_PIN, 3001, 250); 
   delay(250);
   noTone(BEEPER_PIN);
 }
